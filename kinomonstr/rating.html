@@ -23,9 +23,9 @@
       <div class="menubar">
         <ul class="menu">
           <li><a href="index.html">Главная</a></li>
-          <li class="selected"><a href="films.html">Фильмы</a></li>
+          <li ><a href="films.html">Фильмы</a></li>
           <li><a href="#">Сериалы</a></li>
-          <li><a href="rating.html">Рейтинг фильмов</a></li>
+          <li class="selected"><a href="rating.html">Рейтинг фильмов</a></li>
           <li><a href="contact.html">Контакты</a></li>
         </ul>
       </div>
@@ -67,52 +67,39 @@
         </div>
       </div>
       <div class="content">
-        <h1>Интерстеллар</h1>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/qcPfI0y7wRU" frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen></iframe>
-      
-      <div class="info_film_page">
-        <span class="label">Рейтинг: </span><span class="value"> 8.1 / 10 </span>
-        <span class="label">Год: </span><span class="value"> 2014 </span>
-        <span class="label">Режиссер:  </span><span class="value"> Кристофер Нолан </span>
+        <table>
+          <tr>
+            <th></th>
+            <th>Фильмы</th>
+            <th class="center">Год</th>
+            <th class="center">Рейтинг</th>
+          </tr>
+          <tr>
+            <td class="center"><img src="assets/img/inter.png" alt="Интерсталар"></td>
+            <td>1. <a href="show.html">Интерстелар</a></td>
+            <td class="center">2014</td>
+            <td class="center rating">8.1</td>
+          </tr>
+          <tr>
+            <td class="center"><img src="assets/img/matrix.png" alt="Матрица"></td>
+            <td>2. <a href="#">Матрица</a></td>
+            <td class="center">1999</td>
+            <td class="center rating">8.0</td>
+          </tr>
+          <tr>
+            <td class="center"><img src="assets/img/max.png" alt="Безумный Макс"></td>
+            <td>1. <a href="#">Безумный Макс</a></td>
+            <td class="center">2015</td>
+            <td class="center rating">7.8</td>
+          </tr>
+          <tr>
+            <td class="center"><img src="assets/img/cloud.png" alt="Обласный атлас"></td>
+            <td>1. <a href="#">Облачный атлас</a></td>
+            <td class="center">2013</td>
+            <td class="center rating">7.4</td>
+          </tr>
+        </table>
       </div>
-      <hr>
-
-      <h2>Описание Интерсталлар</h2>
-      <div class="description_film">
-        <img src="assets/img/inter.png">
-        Когда засуха, пыльные бури и вымирание растений приводят человечество к продовольственному кризису, коллектив
-        исследователей и учёных отправляется сквозь червоточину (которая предположительно соединяет области пространства-времени
-        через большое расстояние) в путешествие, чтобы превзойти прежние ограничения для космических путешествий человека и
-        найти планету с подходящими для человечества условиями.
-      </div>
-      <hr>
-      <h2>Отзывы о Интерсталлар</h2>
-      <div class="reviews">
-        <div class="review_name">
-          Сергей
-        </div>
-        <div class="review_text">
-          Отличный фильм, 3 часа пролетели незаметно
-        </div>
-      </div>
-      <div class="reviews">
-        <div class="review_name">
-          Дмитрий
-        </div>
-        <div class="review_text">
-          После фильма Начало, я с нетерпеньем жду фильмов от Кристофера Нолана
-        </div>
-      </div>
-      <div class="send">
-        <form method="post" action="#" id="review">
-          <input type="text" name="review_name" placeholder="Ваше имя">
-          <textarea name="review_text"></textarea>
-          <input type="submit" value="Отправить">
-        </form>
-      </div>
-    </div>
     </div>
   </div>
   <div class="footer">
