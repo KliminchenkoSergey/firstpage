@@ -68,6 +68,39 @@ body {
   margin-top: 8%;
 }
 
+.panel {
+  border: none;
+}
+
+.panel-body {
+  background-color: #f9f9f9;
+}
+
+.panel-info > .panel-heading {
+  background-color: #f0ad4e;
+  color: white;
+  border-color: transparent;
+}
+
+.sidebar-header {
+  font-size: 120%;
+  letter-spacing: 2px;
+}
+
+.form-control {
+  font-size: 14px;
+  border-radius: 0px;
+}
+
+.list-group-item {
+  color: #8a6d3b;
+  background-color: #f9f9f9;
+}
+
+.badge {
+  background-color: #000;
+}
+
 footer {
   color: #666;
   background: #222;
