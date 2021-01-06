@@ -32,6 +32,7 @@ a:hover {
 
 .navbar-inverse {
   padding: 1%;
+  border-radius: 0;
 }
 
 .clear {
@@ -97,8 +98,25 @@ body {
   background-color: #f9f9f9;
 }
 
+.info-block {
+  font-size: 120%;
+  text-align: center;
+}
+
+.infoblock.badge {
+  font-size: 80%;
+}
+
+.infoblock span {
+  margin-right: 3%;
+}
+
 .badge {
   background-color: #000;
+}
+
+textarea.form-control {
+  height: 200px;
 }
 
 footer {
@@ -106,6 +124,10 @@ footer {
   background: #222;
   padding: 17px 0 18px 0;
   border-top: 1px solid #000;
+}
+
+table tbody > tr > td.vert-align {
+  vertical-align: middle;
 }
 
 footer a {
